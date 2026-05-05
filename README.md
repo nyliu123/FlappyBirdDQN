@@ -23,6 +23,7 @@ FlappyBirdDQN/
 │   └── flappy_bird.py      # Flappy Bird game environment (Pygame)
 ├── assets/
 │   ├── sprites/            # Bird, pipe, background, number sprites
+|   ├── demos/              # Demonstration GIFs
 │   └── audio/              # Sound effects
 ├── pretrained_model/
 │   ├── base/               # Saved base DQN checkpoints
@@ -42,7 +43,7 @@ Above model can be found in `pretrained_model\base\`
 
 ### DQN + Target Network Model at Iteration 1,950,000
 
-![](.\assets\demos\demo_target.gif)
+![](./assets/demos/demo_target.gif)
 
 Above model can be found in `pretrained_model\target\`
 
